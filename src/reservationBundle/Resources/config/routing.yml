@@ -1,0 +1,18 @@
+reservation_homepage:
+    path:     /reservation
+    defaults: { _controller: reservationBundle:Default:index }
+ajout:
+    path:     /ajout/{id}/{iduser}
+    defaults: { _controller: reservationBundle:Default:AjoutReservation }
+
+affichage:
+    path:     /afficherPanier/{iduser}
+    defaults: { _controller: reservationBundle:Default:afficherPanier }
+
+supprimerReservation:
+    path:     /supprimerReservation/{idReservation}
+    defaults: { _controller: reservationBundle:Default:SupprimerReservation }
+
+modifierReservation:
+    path:     /modifierReservation/{idReservation}/{quantite}
+    defaults: { _controller: reservationBundle:Default:modifierReservation }

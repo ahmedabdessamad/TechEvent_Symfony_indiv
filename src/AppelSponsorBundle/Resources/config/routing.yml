@@ -1,0 +1,18 @@
+appel_sponsor_homepage:
+    path:     /anas
+    defaults: { _controller: AppelSponsorBundle:Default:index }
+appel_sponsor_index:
+    path:     /jdidi
+    defaults: { _controller: AppelSponsorBundle:AppelSponsor:index }
+appel_sponsor_new:
+    path:     /iheb
+    defaults: { _controller: AppelSponsorBundle:AppelSponsor:new }
+appel_sponsor_edit:
+    path:     /yesser/{id}
+    defaults: { _controller: AppelSponsorBundle:AppelSponsor:edit }
+appel_sponsor_show:
+    path:     /wahb/{id}
+    defaults: { _controller: AppelSponsorBundle:AppelSponsor:show }
+appel_sponsor_delete:
+    path:     /joujou/{id}
+    defaults: { _controller: AppelSponsorBundle:AppelSponsor:delete }
